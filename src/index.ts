@@ -50,8 +50,8 @@ function text() {
 class A {
 
     name: string;
-    constructor() {
-        this.name = "ramesh"
+    constructor(name: string) {
+        this.name = name
     }
 
     @first("testing")
@@ -62,5 +62,5 @@ class A {
 }
 
 
-const a = new A();
+const a = new A("ramesh");
 a.fun('hi')
