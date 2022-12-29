@@ -1,0 +1,24 @@
+{
+  "name": "typescriptdecoratorsdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -b && node ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramesh-x90/TypeScriptDecoratorsDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramesh-x90/TypeScriptDecoratorsDemo/issues"
+  },
+  "homepage": "https://github.com/ramesh-x90/TypeScriptDecoratorsDemo#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.9.4"
+  }
+}
